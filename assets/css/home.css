@@ -145,7 +145,7 @@ header .container .menu nav ul li button:hover{
     transform: rotateY(0deg) rotateZ(0deg) scale(1); 
     text-shadow: 0px 0px;
 }
-@media only screen and (min-width: 450px) and (max-width: 768px) {
+@media only screen and (min-width: 350px) and (max-width: 768px) {
     header .container{
         flex-direction: column;
     }

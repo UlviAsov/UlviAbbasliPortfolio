@@ -75,7 +75,7 @@
 .skills .mySkills  .skill .fa-react{
    color: aqua;
 }
-@media only screen and (min-width: 450px) and (max-width: 768px) {
+@media only screen and (min-width: 350px) and (max-width: 768px) {
     #about .skills .mySkills .skill{
         width: 100%;
     }

@@ -25,7 +25,7 @@
     display: inline-block;
     padding-bottom: 5px;
 }
-@media only screen and (min-width: 450px) and (max-width: 768px) {
+@media only screen and (min-width: 350px) and (max-width: 768px) {
     #about .my-education .container{
         flex-direction: column;
         gap: 20px;
