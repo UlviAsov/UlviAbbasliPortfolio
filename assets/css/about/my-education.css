@@ -1,0 +1,40 @@
+#about .my-education{
+    width: 95%;
+    margin: 0 auto;
+}
+#about .my-education .container{
+    display: flex;
+    justify-content: space-around;
+}
+#about .my-education .container .edu p{
+    max-width: 300px;
+    color: #999;
+}
+#about .my-education .container .edu h3{
+    padding: 15px 0 10px 0;
+    color: white;
+}
+#about .my-education .container .edu .time{
+    color: #999;
+    border: 1px solid;
+    font-size: 14px;
+    padding: 6px;
+}
+#about .my-education .container .edu .adress{
+    color: #666;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+    #about .my-education .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #about .my-education .container .edu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

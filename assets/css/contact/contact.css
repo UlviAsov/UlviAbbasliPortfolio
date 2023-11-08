@@ -1,0 +1,152 @@
+#contact {
+    transform: translateY(150%) skew(150deg);  
+    top: 50px;
+    left:40px;
+    height: 90vh;
+    background-color: #222;
+    position: absolute;
+    width: 95%;
+    overflow-y: scroll;
+    transition: 1s all ease-in-out;
+}
+#contact .contactWithMe .title{
+    padding-bottom: 100px;
+}
+#contact .arrows{
+    padding: 40px;
+}
+#contact .arrows .previousContact{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 137, 5);
+    background-color: #222;
+    border: 2px solid rgb(208, 137, 5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .5s all ease-in-out;
+    margin-bottom: 20px;
+}
+#contact .arrows .previousContact:hover{
+    color: #222;
+    background-color: rgb(208, 137, 5);
+    border: 1px solid #222;
+}
+#contact .arrows .exit{
+    font-size: 20px;
+    color: rgb(208, 137, 5);
+}
+#contact .form-fluid{
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#contact .form-fluid .input-fluid label{
+    color: rgb(255, 111, 0);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#contact .form-fluid .input-fluid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#contact .form-fluid .input-fluid input{
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    max-width: 400px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #222;
+    color: rgb(208, 137, 5);
+    border: 1px solid rgb(208, 137, 5);
+}
+#contact .form-fluid .input-fluid textarea{
+    max-width: 400px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+    background-color: #222;
+    color: rgb(208, 137, 5);
+    border: 1px solid rgb(208, 137, 5);
+}
+#contact .form-fluid button{
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background-color:orangered;
+    border: none;
+    outline: none;
+    max-width: 400px;
+    padding: 10px 30px;
+    transition: .5s all ease-in-out;
+}
+#contact .form-fluid button:hover{
+    background-color: rgb(241, 85, 28);
+}
+#contact .contactWithMe .container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#contact .contactWithMe .container .map{
+    border-radius: 20px;
+    height: 545px;
+    width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#contact .contactWithMe .container .map iframe{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+#contact .contactWithMe{
+    padding-bottom: 100px;
+}
+#contact .contact-items{
+    border-top: 2px solid rgb(208, 137, 5);
+    box-shadow: 25px 25px 20px 25px rgb(208, 137, 5);
+    background-color: #222;
+    color: rgb(208, 137, 5);
+}
+#contact .contact-items .items{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+#contact .contact-items .items .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+   #contact .contactWithMe .container{
+        flex-direction: column;
+   }
+   #contact .contactWithMe .container .map{
+        width: 100%;
+   }
+   #contact .contactWithMe .container .form-fluid{
+    margin-top: 20px;
+    width: 100%;
+   }
+   #contact .contact-items .items{
+    flex-direction: column;
+   }
+   #contact .contact-items .items .item{
+    padding: 20px 0;
+    width: 100%;
+   }
+}

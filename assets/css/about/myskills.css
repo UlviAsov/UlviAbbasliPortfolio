@@ -1,0 +1,83 @@
+.skills{
+    width: 95%;
+    margin: 0 auto;
+}
+.skills .mySkills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills .mySkills .skill h4{
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.skills .mySkills  .skill{
+    width: 48%;
+    padding-bottom: 30px;
+}
+.skills .mySkills  .skill .container{
+    width: 100%;
+    height: 30px;
+    background-color: #999;
+}
+.skills .mySkills  .skill .container .progress{
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.skills .mySkills  .skill .container .progress span{
+    padding-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+.skills .mySkills  .skill .container .html{
+    width: 80%;
+    background-color: orangered;
+}
+.skills .mySkills  .skill .fa-html5{
+    color: orangered;
+}
+.skills .mySkills  .skill .container .css{
+    width: 90%;
+    background-color: rgb(105, 105, 254);
+}
+.skills .mySkills  .skill .fa-css3{
+    color: rgb(105, 105, 254);
+}
+.skills .mySkills  .skill .container .js{
+    width: 70%;
+    background-color: yellow;
+}
+.skills .mySkills  .skill .fa-js{
+    color: yellow;
+}
+.skills .mySkills  .skill .container .sass{
+    width: 50%;
+    background-color: rgb(245, 162, 176);
+}
+.skills .mySkills  .skill .fa-sass{
+    color: rgb(245, 162, 176);
+}
+.skills .mySkills  .skill .container .bootstrap{
+    width: 80%;
+    background: rgb(145,43,203);
+    background: linear-gradient(137deg, rgba(145,43,203,1) 45%, rgba(63,11,93,1) 71%, rgba(55,8,82,1) 100%);
+}
+.skills .mySkills  .skill .fa-bootstrap{
+    color:rgb(105,20,153);
+}
+.skills .mySkills  .skill .container .react{
+    width: 60%;
+    background-color: aqua;
+}
+.skills .mySkills  .skill .fa-react{
+   color: aqua;
+}
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+    #about .skills .mySkills .skill{
+        width: 100%;
+    }
+  
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: #222;
+    color: rgb(208, 137, 5);
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(208, 137, 5); 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orange; 
+}
+.title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.title .line{
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+}
+header{
+    background-color: #222;
+    height: 100vh;
+    background-image:  url(https://media1.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.webp?cid=ecf05e47xc64uvw10uu6q0y9074xdh55p5m4pwszfj6z4fk3&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header .container{
+    height: inherit;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .icons .header-icon a i{
+    font-size: 30px;
+    color: white;
+}
+header .container .icons .icon{
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: #222;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all ease-in-out;
+}
+header .container .icons .header-icon:hover{
+    background-color: #fff;
+}
+header .container .icons .header-icon:hover a i{
+    color: #222;
+}
+header .container .icons .night-sun{
+   cursor: pointer;
+   font-size: 25px;
+   color: yellow;
+   background-color: #222;
+   border-radius: 20px;
+   border: 2px solid #fff;
+   /* rgb(117, 117, 242) */
+}
+header .container .typeWrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container .typeWrite h1{
+    text-shadow: -12px -7px 8px #222;
+    color: #f4f4f4;
+    font-size: 50px;
+    font-weight: 700;
+}
+header .container .typeWrite h1 .type-write{
+    font-size: 60px;
+}
+header .container .typeWrite h1 .type-write .iam{
+    color: #fff;
+    font-weight: 100;
+}
+header .container .typeWrite h1 .type-write .typewrite{
+    color: orange;
+}
+header .container .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+header .container .menu nav ul li button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding-bottom: 20px;
+    display: block;
+    color: #fff;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*transform:rotateX(20deg)  rotateY(60deg) rotateZ(-15deg); */
+    transform: rotateY(-55deg) rotateZ(5deg) scale(1.5); 
+    /* transform: skew(20deg,10deg); */
+    transform-origin: center center;
+    transition: 1s all ease-in-out;
+    text-shadow: 10px -5px 0px #222;
+}
+header .container .menu nav ul li button:hover{
+    transform: rotateY(0deg) rotateZ(0deg) scale(1); 
+    text-shadow: 0px 0px;
+}
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+    header .container{
+        flex-direction: column;
+    }
+    header .container .icons{
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    header .container .icons .icon{
+        font-size: 17px;
+        width: 25px;
+        height: 25px;
+        padding: 25px;
+    }
+    header .container .typeWrite h1{
+        font-size: 40px;
+    }
+    header .container .typeWrite h1 .type-write{
+        font-size: 45px;
+    }
+    header .container .menu nav ul li button{
+        transform: rotateY(0deg) rotateZ(0deg) scale(1); 
+        text-shadow: 0px 0px;
+        font-size: 50px;
+        color: rgb(208, 137, 5);
+    }
+}
