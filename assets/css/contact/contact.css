@@ -1,8 +1,8 @@
 #contact {
-    transform: translateY(150%) skew(150deg);  
+    transform: translateY(150%);  
     top: 50px;
     left:40px;
-    height: 90vh;
+    height: 95vh;
     background-color: #222;
     position: absolute;
     width: 95%;
