@@ -57,6 +57,19 @@
     padding-right: 180px;
     height: 50vh;
 }
+#about .about-me .about-me-container{
+    display: flex;
+    gap: 30px;
+}
+#about .about-me .about-me-container .myImg{
+    width: 250px;
+    height: 210px;
+}
+#about .about-me .about-me-container .myImg img{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+}
 #about .aboutAndServices {
     width: 95%;
     margin: 0 auto;
