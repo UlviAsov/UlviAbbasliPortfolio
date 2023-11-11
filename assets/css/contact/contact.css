@@ -132,6 +132,10 @@
     gap: 5px;
 }
 @media only screen and (min-width: 350px) and (max-width: 768px) {
+    #contact{
+        width: 100%;
+        left: 0;
+    }
    #contact .contactWithMe .container{
         flex-direction: column;
    }

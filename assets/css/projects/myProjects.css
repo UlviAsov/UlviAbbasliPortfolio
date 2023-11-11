@@ -79,7 +79,10 @@
     row-gap: 30px;
 }
 @media only screen and (min-width: 350px) and (max-width: 768px) {
-
+    #projects{
+        width: 100%;
+        left: 0;
+    }
     #works .projects .items{
         flex-direction: column;
     }
