@@ -182,6 +182,6 @@ header .container .menu nav ul li button:hover{
         color: rgb(208, 137, 5);
     }
     header .container .menu{
-        padding-bottom: 100px;
+        padding-bottom: 30px;
     }
 }
