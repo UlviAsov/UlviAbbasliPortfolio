@@ -82,6 +82,7 @@
     #projects{
         width: 100%;
         left: 0;
+        top: 0;
     }
     #works .projects .items{
         flex-direction: column;

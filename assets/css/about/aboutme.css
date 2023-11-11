@@ -92,6 +92,7 @@
     #about{
         width: 100%;
         left: 0;
+        top: 0;
     }
     #about .aboutAndServices{
         border-bottom: none;
