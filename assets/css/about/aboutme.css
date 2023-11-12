@@ -122,9 +122,10 @@
     #about .about-me{
         border-right: none;
         padding-right: 0;
+        height: max-content;
     }
     #about .about-me .about-me-container .aboutme-content{
         width: 100%;
     }
- 
+    
 }
